@@ -14,9 +14,9 @@ const Stats = () => {
             <img
               id="github-streak-stats"
               className="w-[100%] "
-              // src="https://github-readme-streak-stats.herokuapp.com/?user=Shreekant-totla&" //UNCOMMENT
+              src="https://github-readme-streak-stats.herokuapp.com/?user=Shreekant-totla&theme=nord" //UNCOMMENT
               alt="GaganBN"
-              src="https://streak-stats.demolab.com?user=Shreekant-totla&theme=nord" //COMMENT THIS
+              // src="https://streak-stats.demolab.com?user=Shreekant-totla&theme=nord" //COMMENT THIS
             />
           </a>
         </div>
@@ -34,20 +34,20 @@ const Stats = () => {
               // id="github-stats-card"
               id="github-top-langs"
               className="w-[100%]"
-              // src="https://github-readme-stats.vercel.app/api/top-langs?username=Shreekant-totla&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS
+              src="https://github-readme-stats.vercel.app/api/top-langs?username=Shreekant-totla&show_icons=true&theme=nord" //UNCOMMENT THIS locale=en&layout=compact
               alt="top_languages"
-              src="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&theme=nord" //COMMENT THIS
+              // src="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&theme=nord" //COMMENT THIS
             />
           </picture>
         </div>
         {/* UNCOMMENT BELOW */}
-        {/* <div>
+        <div>
           <img
             id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&locale=en"
+            src="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&locale=en&theme=nord"
             alt="GaganBN"
           />
-        </div> */}
+        </div>
       </div>
 
       <div>
