@@ -23,7 +23,7 @@ const About = () => {
           </div>
           
         </div>
-        <div marginTop="10px" style={{ paddingLeft:"200px"}}>
+        <div className="home-img" marginTop="10px" style={{ paddingLeft:"200px"}}>
           <img src={ProfilePic} alt="profile pic" width="50%" />
           </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">

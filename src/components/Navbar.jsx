@@ -143,11 +143,12 @@ const Navbar = () => {
             </a>
           </li>
           <li
-            id="resume-link-2"
+            id="resume-button-2"
             className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#565f69]"
           >
             <a
-              id="resume-link-2"
+            
+              id="resume-button-2"
               className="flex justify-between items-center w-full text-gray-300"
               href={Resume}
               download={"Shreekant-totla-Resume"}
