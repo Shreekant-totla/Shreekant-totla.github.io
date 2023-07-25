@@ -5,6 +5,19 @@ import { HiOutlineMail } from "react-icons/hi";
 import Resume from "../assets/resume.pdf";
 
 const Contact = () => {
+
+  const handleResume = () => {
+    const newTab = window.open(Resume, '_blank');
+    newTab.focus();
+
+    // Download the resume
+    const downloadLink = document.createElement('a');
+    downloadLink.href = Resume;
+    downloadLink.target = '_blank';
+    downloadLink.download = 'Shreekant-totla-Resume.pdf';
+    downloadLink.click();
+  }
+  
   return (
     <div
       id="contact"
@@ -52,8 +65,7 @@ const Contact = () => {
               <a
                 id="resume-link-2"
                 className="flex flex-col justify-between items-center w-full text-gray-300 hover:scale-110 duration-300"
-                href={Resume}
-                download={"Shreekant-totla-Resume"}
+                onClick={handleResume}
               >
                 <BsFillPersonLinesFill size={30} /> Resume
               </a>

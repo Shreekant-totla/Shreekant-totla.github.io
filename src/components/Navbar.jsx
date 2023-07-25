@@ -17,6 +17,17 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  const handleResume = () => {
+    const newTab = window.open(Resume, '_blank');
+    newTab.focus();
+
+    // Download the resume
+    const downloadLink = document.createElement('a');
+    downloadLink.href = Resume;
+    downloadLink.target = '_blank';
+    downloadLink.download = 'Shreekant-totla-Resume.pdf';
+    downloadLink.click();
+  }
   return (
     <div
       id="nav-menu"
@@ -60,12 +71,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li id="resume-button-1" className="nav-link resume">
-          <a id="resume-link-1" href={Resume} download={"Shreekant-totla-Resume"}>
+          <button onClick={handleResume}>
+          {/* <a id="resume-link-1" href={Resume} target="_blank" download={"Shreekant-totla-Resume"}> */}
             Resume
-          </a>
+          {/* </a> */}
+          </button>
         </li>
       </ul>
-
+      
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
@@ -109,9 +122,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-link resume py-6 text-4xl">
-          <a href={Resume} download={"Shreekant-totla-Resume"}>
+        <button onClick={handleResume}>
             Resume
-          </a>
+          </button>
         </li>
       </ul>
 
@@ -146,15 +159,14 @@ const Navbar = () => {
             id="resume-button-2"
             className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#565f69]"
           >
-            <a
+            <button
             
               id="resume-button-2"
               className="flex justify-between items-center w-full text-gray-300"
-              href={Resume}
-              download={"Shreekant-totla-Resume"}
+              onClick={handleResume}
             >
               <BsFillPersonLinesFill size={30} />Resume 
-            </a>
+            </button>
           </li>
           <li style={{borderBottomLeftRadius:"15px"}} className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#f87171]">
             <a
