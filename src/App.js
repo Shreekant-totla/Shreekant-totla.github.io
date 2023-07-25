@@ -3,19 +3,20 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-// import Work from "./components/Work";
+import Work from "./components/Work";
 import backLogo from "./assets/herobg.png";
-// import Stats from "./components/Stats";
+import Stats from "./components/Stats";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div className="relative min-h-screen">
+      <div className="relative min-h-screen" >
         <img
           className="absolute -z-10 min-h-screen object-cover"
           src={backLogo}
           alt=""
+          width="100%"
         />
         <div className="z-2 ">
           <Home id="home" />
@@ -25,8 +26,8 @@ function App() {
       <div className="bg-[#030519]">
         <About />
         <Skills />
-        {/* <Work /> */}
-        {/* <Stats /> */}
+        <Work />
+        <Stats />
         <Contact />
       </div>
     </div>
