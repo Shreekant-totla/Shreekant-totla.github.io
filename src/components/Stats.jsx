@@ -6,27 +6,27 @@ const Stats = () => {
     <div className="max-w-[1000px] mx-auto  p-4 w-full h-screen xs:h-full xs:pt-[100px] md:pt-[200px] lg:pt-40 lg:pb-40 xl:pt-0 bg-[#030519] lg:flex flex-col justify-center items-center ">
       <div className="flex xs:gap-16 xs:flex-col md:flex-row md:gap-6">
         <div
-        // src="https://github-readme-streak-stats.herokuapp.com/?user=GRAviTY-GAGAN&"
+        // src="https://github-readme-streak-stats.herokuapp.com/?user=Shreekant-totla&"
 
-        // src="https://streak-stats.demolab.com?user=GRAviTY-GAGAN&theme=nord"
+        // src="https://streak-stats.demolab.com?user=Shreekant-totla&theme=nord"
         >
-          <a href="https://github.com/GRAviTY-GAGAN">
+          <a href="https://github.com/Shreekant-totla">
             <img
               id="github-streak-stats"
               className="w-[100%] "
-              // src="https://github-readme-streak-stats.herokuapp.com/?user=GRAviTY-GAGAN&" //UNCOMMENT
+              // src="https://github-readme-streak-stats.herokuapp.com/?user=Shreekant-totla&" //UNCOMMENT
               alt="GaganBN"
-              src="https://streak-stats.demolab.com?user=GRAviTY-GAGAN&theme=nord" //COMMENT THIS
+              src="https://streak-stats.demolab.com?user=Shreekant-totla&theme=nord" //COMMENT THIS
             />
           </a>
         </div>
-        <div src="gravity-gagan/github-readme-stats.vercel.app/api">
+        <div src="shreekant-totla/github-readme-stats.vercel.app/api">
           <picture
             // id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord"
+            src="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&theme=nord"
           >
             <source
-              srcSet="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord"
+              srcSet="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&theme=nord"
               media="(prefers-color-scheme: transparent)"
             />
 
@@ -34,9 +34,9 @@ const Stats = () => {
               // id="github-stats-card"
               id="github-top-langs"
               className="w-[100%]"
-              // src="https://github-readme-stats.vercel.app/api/top-langs?username=GRAviTY-GAGAN&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS
+              // src="https://github-readme-stats.vercel.app/api/top-langs?username=Shreekant-totla&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS
               alt="top_languages"
-              src="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&theme=nord" //COMMENT THIS
+              src="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&theme=nord" //COMMENT THIS
             />
           </picture>
         </div>
@@ -44,7 +44,7 @@ const Stats = () => {
         {/* <div>
           <img
             id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=GRAviTY-GAGAN&show_icons=true&locale=en"
+            src="https://github-readme-stats.vercel.app/api?username=Shreekant-totla&show_icons=true&locale=en"
             alt="GaganBN"
           />
         </div> */}
@@ -62,14 +62,14 @@ const Stats = () => {
           showWeekdayLabels={true}
           hideColorLegend
           hideTotalCount
-          username="GRAviTY-GAGAN"
+          username="Shreekant-totla"
         />
       </div>
 
       <div className="mt-16">
-        <a href="http://www.github.com/GRAviTY-GAGAN">
+        <a href="http://www.github.com/Shreekant-totla">
           <img
-            src="https://github-readme-activity-graph.cyclic.app/graph?username=GRAviTY-GAGAN&bg_color=12000&color=ffffff&line=0891b2&point=ffffff&area_color=000000&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph"
+            src="https://github-readme-activity-graph.vercel.app/graph?username=Shreekant-totla&bg_color=000000&color=0aa4b8&line=eac510&point=ce1c1c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph"
             alt="GitHub Commits Graph"
           />
         </a>
