@@ -56,18 +56,18 @@ export const data = [
     ],
   },
   {
-    id: 5,
-    name: "React JS Application",
-    image: CodeVortex,
-    pName: "Interview Simulator",
+    id: 4,
+    name: "JS Application",
+    image: loud-weight-1875,
+    pName: "Sell Out Bazzar",
     pDesc:
-      "Code Vortex is an innovative self-interview prep platform harnessing the power of AI and natural language processing. It leverages OpenAI's advanced capabilities and prompt engineering techniques to replicate real interview scenarios. With personalized feedback and a comprehensive set of resources, Code Vortex empowers users to enhance their interview skills and excel in their job search.",
-    github: "https://github.com/GRAviTY-GAGAN/CodeVertex-FE",
-    live: "https://interview-simulator-open-ai.netlify.app/",
+      "Sell Out Bazzar is an online marketplace for selling and buying refurbished products in various categories like electronics, wardrobes etc.",
+    github: "https://github.com/Shreekant-totla/Sell-Out-Bazzar",
+    live: "https://ubiquitous-fenglisu-8fb234.netlify.app/",
     tech: [
-      { name: "#ReactJS", color: "red" },
-      { name: "#MongoDB", color: "orange" },
-      { name: "#ExpressJS", color: "green" },
+      { name: "#JavaScript", color: "red" },
+      { name: "#HTML", color: "orange" },
+      { name: "#CSS", color: "green" },
     ],
   },
   //   {
