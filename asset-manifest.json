@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ce50a02.css",
-    "main.js": "/static/js/main.28a44dd3.js",
+    "main.js": "/static/js/main.77b6f279.js",
     "static/media/musicapp.png": "/static/media/musicapp.fee7f0f28ec1a1bac96f.png",
     "static/media/trade24.png": "/static/media/trade24.86a43deaab65a0b2b859.png",
     "static/media/selloutbazzar.png": "/static/media/selloutbazzar.757d366a4ca91aee19d1.png",
@@ -22,10 +22,10 @@
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
     "main.0ce50a02.css.map": "/static/css/main.0ce50a02.css.map",
-    "main.28a44dd3.js.map": "/static/js/main.28a44dd3.js.map"
+    "main.77b6f279.js.map": "/static/js/main.77b6f279.js.map"
   },
   "entrypoints": [
     "static/css/main.0ce50a02.css",
-    "static/js/main.28a44dd3.js"
+    "static/js/main.77b6f279.js"
   ]
 }
