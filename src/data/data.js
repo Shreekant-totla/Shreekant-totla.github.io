@@ -12,7 +12,7 @@ export const data = [
       "Welcome to Credit Guru, an online platform that offers users the ability to apply for various types of loans and credit cards. This README file provides an overview of the project, its features, and instructions for setting up and running the website locally.",
     image: CreditGuru,
     github: "https://github.com/Shreekant-totla/credit-guru",
-    live: "credit-guru.vercel.app/",
+    live: "https://credit-guru.vercel.app/",
     tech: [
       { name: "#ReactJS", color: "red" },
       { name: "#ChakraUi", color: "orange" },
@@ -27,7 +27,7 @@ export const data = [
     pDesc:
       "This clone is an online marketplace for reviewing and buying stocks , and can tally stocks according to 52 weeks high and low data.",
     github: "https://github.com/Shreekant-totla/trade-24",
-    live: "trade24.vercel.app/",
+    live: "https://trade24.vercel.app/",
     tech: [
       { name: "#ReactJS", color: "red" },
       { name: "#MongoDB", color: "orange" },
@@ -42,7 +42,7 @@ export const data = [
     pDesc:
       "This is an online platform for listening and streaming music",
     github: "https://github.com/Shreekant-totla/Music-app",
-    live: "music-app-123.vercel.app/",
+    live: "https://music-app-123.vercel.app/",
     tech: [
       { name: "#NextJS", color: "red" },
       { name: "#Tailwind", color: "orange" },
@@ -57,7 +57,7 @@ export const data = [
     pDesc:
       "This clone is an online marketplace for selling and buying refurbished products in various categories like electronics, wardrobes etc.",
     github: "https://github.com/Shreekant-totla/Sell-Out-Bazzar",
-    live: "ubiquitous-fenglisu-8fb234.netlify.app/",
+    live: "https://ubiquitous-fenglisu-8fb234.netlify.app/",
     tech: [
       { name: "#JavaScript", color: "red" },
       { name: "#CSS", color: "orange" },

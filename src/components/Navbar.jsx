@@ -172,7 +172,7 @@ const Navbar = () => {
             <a
               id="resume-button-2"
               className="flex justify-between items-center w-full text-gray-300"
-              href="tel:9405809305 / 8668447729"
+              href=" tel: 8668447729"
             >
               <BsPhone size={30} />Call 
             </a>
