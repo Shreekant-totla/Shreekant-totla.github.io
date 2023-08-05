@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.0ce50a02.css",
-    "main.js": "/static/js/main.cd3d462b.js",
+    "main.js": "/static/js/main.bf257c60.js",
     "static/media/musicapp.png": "/static/media/musicapp.fee7f0f28ec1a1bac96f.png",
     "static/media/trade24.png": "/static/media/trade24.86a43deaab65a0b2b859.png",
     "static/media/selloutbazzar.png": "/static/media/selloutbazzar.757d366a4ca91aee19d1.png",
     "static/media/creditguru.png": "/static/media/creditguru.6d23eab84d0f790df58c.png",
-    "static/media/resume.pdf": "/static/media/resume.9239b2993f82681d1e9c.pdf",
+    "static/media/resume.pdf": "/static/media/resume.b10144834aaadd28223d.pdf",
     "static/media/Shreekant.png": "/static/media/Shreekant.5b9965e4568ece05e626.png",
     "static/media/herobg.png": "/static/media/herobg.d3a831670413b9b5efc3.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -22,10 +22,10 @@
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
     "main.0ce50a02.css.map": "/static/css/main.0ce50a02.css.map",
-    "main.cd3d462b.js.map": "/static/js/main.cd3d462b.js.map"
+    "main.bf257c60.js.map": "/static/js/main.bf257c60.js.map"
   },
   "entrypoints": [
     "static/css/main.0ce50a02.css",
-    "static/js/main.cd3d462b.js"
+    "static/js/main.bf257c60.js"
   ]
 }
